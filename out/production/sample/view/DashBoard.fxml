@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="621.0" prefWidth="998.0" style="-fx-background-color: #FDFEFE;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
+   <children>
+      <AnchorPane prefHeight="621.0" prefWidth="204.0" style="-fx-background-color: #2c3e50;">
+         <children>
+            <JFXButton alignment="CENTER" layoutY="101.0" prefHeight="30.0" prefWidth="206.0" style="-fx-background-color: #333399;" text="Customer" textFill="#f5f4f4">
+               <font>
+                  <Font name="Arial Bold" size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="159.0" prefHeight="36.0" prefWidth="206.0" style="-fx-background-color: #333399;" text="Items" textFill="#f5f4f4">
+               <font>
+                  <Font name="Arial Bold" size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="216.0" prefHeight="34.0" prefWidth="206.0" style="-fx-background-color: #333399;" text="Orders" textFill="#f5f4f4">
+               <font>
+                  <Font name="Arial Bold" size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton alignment="CENTER" layoutY="268.0" prefHeight="43.0" prefWidth="206.0" style="-fx-background-color: #333399;" text="Place Orders" textFill="#f5f4f4">
+               <font>
+                  <Font name="Arial Bold" size="23.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
+      <AnchorPane layoutX="203.0" prefHeight="42.0" prefWidth="798.0" style="-fx-background-color: #455A64;" />
+      <AnchorPane layoutX="218.0" layoutY="52.0" opacity="0.18" prefHeight="560.0" prefWidth="771.0" style="-fx-background-color: gray;" />
+   </children>
+</AnchorPane>

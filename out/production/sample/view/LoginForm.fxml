@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane opacity="0.82" prefHeight="421.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="426.0" fitWidth="656.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asserts/Seigantoji-Pagoda-japan-shutterstock_189118511-1575x1050.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="310.0" layoutY="123.0" opacity="0.7" prefHeight="251.0" prefWidth="296.0" style="-fx-background-color: black;">
+         <children>
+            <TextField fx:id="txtUserName" layoutX="22.0" layoutY="60.0" prefHeight="27.0" prefWidth="251.0" promptText="User Name">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtPassword" layoutX="24.0" layoutY="96.0" prefHeight="25.0" prefWidth="251.0" promptText="Password">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </PasswordField>
+            <JFXButton fx:id="btnLogin" buttonType="RAISED" layoutX="197.0" layoutY="147.0" onAction="#btnLoginAction" style="-fx-background-color: #33FF00;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="7.0" layoutY="14.0" prefHeight="47.0" prefWidth="622.0" text="Thoga Kade Login Form" textFill="#160846">
+         <font>
+            <Font name="Arial Bold" size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
